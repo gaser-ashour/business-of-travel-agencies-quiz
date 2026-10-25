@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Business of Travel Agencies – Practice Test</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--tx:#14213d;--mut:#5b6478;--bd:#d9deea;--pr:#3b5bdb;--ok:#2b8a3e;--okb:#e6f6ea;--no:#c92a2a;--nob:#fdeaea;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0f1424;--card:#1a2138;--tx:#e8ecf7;--mut:#9aa5c0;--bd:#2c3556;--pr:#7c96ff;--ok:#5fd07a;--okb:#16301f;--no:#ff7b7b;--nob:#3a1b1f}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0f1424;--card:#1a2138;--tx:#e8ecf7;--mut:#9aa5c0;--bd:#2c3556;--pr:#7c96ff;--ok:#5fd07a;--okb:#16301f;--no:#ff7b7b;--nob:#3a1b1f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic",Arial,sans-serif;line-height:1.7}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--card);z-index:10}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--card);border-bottom:1px solid var(--bd);padding:10px 14px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.meter{display:flex;align-items:center;gap:10px}
+.ring{position:relative;width:64px;height:64px}
+.ring svg{width:64px;height:64px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:6}
+.ring .bg{stroke:var(--bd)}.ring .fg{stroke:var(--ok);stroke-linecap:round;transition:stroke-dashoffset .5s}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-size:.8rem}
+.lbl{font-size:.8rem;color:var(--mut)}.big{font-weight:700;font-size:1.05rem}
+#wbox{margin-inline-start:auto;border:1px solid var(--no);background:var(--nob);color:var(--no);border-radius:12px;padding:8px 14px;cursor:pointer;font:inherit;text-align:center}
+#wbox b{display:block;font-size:1.3rem;line-height:1.2}
+main{max-width:760px;margin:0 auto;padding:12px 14px 40px}
+h1{font-size:1.25rem;margin:14px 0 4px}
+.sep{display:flex;align-items:center;gap:10px;margin:36px 0 16px;color:var(--mut);font-size:.88rem;font-weight:600}.sep::before,.sep::after{content:'';flex:1;border-top:2px dashed var(--bd)}h2{font-size:1.05rem;color:var(--pr);margin:26px 0 8px;border-bottom:2px solid var(--bd);padding-bottom:4px}
+.q{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px;margin:12px 0;scroll-margin-top:calc(110px + env(safe-area-inset-top,0px))}
+.q.flash{animation:fl 1.6s}@keyframes fl{0%,60%{box-shadow:0 0 0 3px var(--pr)}100%{box-shadow:none}}
+.meta{font-size:.78rem;color:var(--mut);margin-bottom:4px}
+.qt{font-weight:600;margin-bottom:10px}
+.op{display:flex;gap:10px;width:100%;text-align:start;font:inherit;color:var(--tx);background:transparent;border:1px solid var(--bd);border-radius:10px;padding:9px 12px;margin:6px 0;cursor:pointer}
+.op:hover:not(:disabled){border-color:var(--pr)}.op:disabled{cursor:default}
+.op b{color:var(--pr)}
+.op.ok{background:var(--okb);border-color:var(--ok)}.op.no{background:var(--nob);border-color:var(--no)}
+.fb{display:none;margin-top:8px;padding:9px 12px;border-radius:10px;font-size:.92rem}
+.fb.ok{display:block;background:var(--okb);color:var(--ok)}.fb.no{display:block;background:var(--nob)}
+.fb.no strong{color:var(--no)}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:50;padding:16px}
+.ov.on{display:flex}
+.md{background:var(--card);border-radius:16px;max-width:520px;width:100%;max-height:80vh;overflow:auto;padding:16px;border:1px solid var(--bd)}
+.md h3{margin:0 0 10px}.md button.it{display:block;width:100%;text-align:start;font:inherit;color:var(--tx);background:transparent;border:1px solid var(--bd);border-radius:10px;padding:8px 12px;margin:6px 0;cursor:pointer}
+.md button.it:hover{border-color:var(--pr)}
+.tag{font-size:.75rem;border-radius:8px;padding:1px 8px;margin-inline-end:6px;background:var(--nob);color:var(--no)}.tag.m{background:var(--bd);color:var(--mut)}
+.x{float:right;border:0;background:none;color:var(--mut);font-size:1.4rem;cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+ <div class="meter"><div class="ring"><svg viewBox="0 0 64 64"><circle class="bg" cx="32" cy="32" r="26"/><circle class="fg" id="fg" cx="32" cy="32" r="26" stroke-dasharray="163.4" stroke-dashoffset="163.4"/></svg><b id="rt">0%</b></div>
+ <div><div class="big" id="sc">0 / 0</div><div class="lbl">Correct answers</div><div class="lbl" id="st"></div></div></div>
+ <button id="wbox" type="button"><b id="wn">0</b><span class="lbl">Wrong / Missed</span></button>
+</header>
+<main>
+ <h1>Business of Travel Agencies – Practice Test</h1>
+ <div class="lbl">Lectures 1 &amp; 2 · Answers cannot be changed once chosen</div>
+ <div id="qs"></div>
+</main>
+<div class="ov" id="ov"><div class="md" role="dialog" aria-modal="true"><button class="x" id="cl" aria-label="Close">×</button><h3>Wrong or unanswered questions</h3><div id="wl"></div></div></div>
+<script>
+const L=["Lecture 1: Introduction, History &amp; Packaging","Lecture 2: Types of Agencies, Transport &amp; Branding"];
+const R=[
+[1,"In legal terms, a travel agency is best described as:",["An agent of the suppliers (principals), acting as a broker between buyer and seller","An agent of the traveller who pays the agency’s fee","An independent producer that owns the tourism product","A wholesaler carrying the risk of unsold stock"],0,"Legally it represents the principals in a geographic area; only in marketing terms does it act on behalf of the client."],
+[1,"Why is the ARC definition of a retail agency considered incomplete?",["It leaves out ticket issuing","It ignores payment collection","It takes the airlines’ point of view, yet not all agencies sell air tickets","It applies only to wholesalers"],2,"Its listed functions are airline-centred, but many agencies sell no airline tickets at all."],
+[1,"What made Cook’s 1841 Loughborough excursion a historic first?",["First overseas package tour","First use of hotel coupons","An agent bought rail tickets in bulk and resold them","First round-the-world trip"],2,"Bulk purchase for resale is the seed of the agent/operator role; it began as a non-profit service."],
+[1,"Hotel coupons, invented for the 1845 Leicester–Liverpool tour, mattered because they:",["Replaced rail tickets","Were a form of traveller’s cheque","Were the commission railways paid him","Let accommodation be bundled into an all-inclusive price"],3,"Coupons made the first all-inclusive tour possible by packaging lodging with the journey."],
+[1,"Cook’s 5% commission from railway and steamship firms shows that at that stage he acted as:",["An agent paid commission by suppliers","A wholesaler carrying deposit risk","A corporate in-house agency","An inbound ground operator"],0,"Suppliers paying a percentage on tickets sold is the classic agent/commission model."],
+[1,"Why did Cook move from non-profit excursions to guided deluxe tours abroad?",["Governments required licences","He needed trips that could produce greater revenues","Railways stopped paying commission","IATA standards demanded it"],1,"He saw the commercial potential and moved up-market, becoming in effect a tour operator."],
+[1,"After the Suez Canal opened, Cook opened offices in:",["Port Said and Suez","Cairo and Luxor","Alexandria and Cairo","Aswan and Cairo"],2,"They handled traffic through Suez to the Middle and Far East."],
+[1,"All are given as causes of Thomas Cook’s 2019 collapse EXCEPT:",["Huge debts","Competition from online travel companies","Competition from low-cost airlines","Loss of railway commissions to IATA rules"],3,"The lecture cites debt, online rivals, low-cost airlines and running out of money; IATA rules are not mentioned."],
+[1,"Which is the correct order of American Express’s development?",["Travel services 1915 → freight 1836 → cheques 1890s","Cheques 1890s → freight 1836 → travel services 1915","American Express 1850 → travel 1915 → freight 1836","Freight 1836 → American Express 1850 → cheques 1890s → travel services 1915"],3,"It began as a freight business and entered travel only in 1915."],
+[1,"The growth in agency locations led airlines to set standards (IATA) mainly to:",["Fix hotel prices","Vet the financial and professional soundness of those appointed to sell tickets and paid commission","Replace agencies with direct sales","License tour guides"],1,"Airlines needed financial and professional standards for the sellers they paid commission to."],
+[1,"Which pairing is correct?",["Airport→hotel = transportation; Cairo→Luxor flight = transfer","Airport→hotel = transfer; Cairo→Luxor flight = transportation","Both are transfers","Both are transportation"],1,"Transportation covers long distances (between cities or countries); transfer covers short ones such as airport/hotel."],
+[1,"Which service falls under AOSR (auxiliary services)?",["Airport reception","Museum sightseeing","Dining on a boat","A local guide"],2,"AOSR covers extras like theatre or boat dining; reception is Meet & Assist, museums are Sights, the guide is Guidance."],
+[1,"A client wants self-catering privacy in the city centre plus maid service, room service and reception. Best fit?",["Serviced apartment","Hostel","Motel","Capsule hotel"],0,"Serviced apartments combine self-catering with hotel-type services."],
+[1,"Parents want pools, sports, evening entertainment and a kids’ club in one place. Best fit?",["Car camping","Vacation rental","Motel","Holiday village / resort"],3,"Holiday villages combine accommodation with on-site leisure facilities and entertainment."],
+[1,"Which feature separates a tour operator from a travel agent in the Medlik and Yale definitions?",["It sells tickets only for commission","It never deals with the public","It buys components, often in bulk, and combines them into a package sold at a mark-up","It only serves corporate clients"],2,"The operator assembles and prices its own package; the agent mainly resells."],
+[1,"Which is NOT shown among the components of tour cost?",["Cruises","Advertising campaign","Meals","Local guides/escort"],1,"Shown: hotels, meals, airlines, railways, road transport, cruises, guides/escorts and miscellaneous."],
+[1,"Cook’s first Loughborough excursion was run as a for-profit venture.",0,"He undertook it as a non-profit service and only later realised its potential."],
+[1,"Cook’s 1846 Scotland tour carried 350 people by train and steamship.",1,"This is the tour for which he arranged commissions with railway and steamship companies."],
+[1,"Coltman describes the travel agency as the first link in the distribution chain, upstream from suppliers.",0,"Coltman calls it the final contact between those who sell tourism and those who buy it."],
+[1,"American Express began as a travel agency in 1850.",0,"It started as a freight business; it entered travel only in 1915."],
+[1,"In marketing terms an agency acts for the client, yet it earns its income as commission from suppliers.",1,"This is the agent-middleman paradox the lecture highlights."],
+[1,"Cook’s round-the-world tour of 1872–73 lasted 222 days.",1,"It covered the USA, Japan, China, Singapore, Sri Lanka, India, Egypt, Palestine and parts of Europe."],
+[1,"Most capsule hotels welcome female and male guests equally.",0,"Most are segregated by gender, and many do not accept female guests at all."],
+[1,"Cook began overseas tours from 1860, after earlier domestic ones.",1,"From 1860 he developed his tours from domestic to overseas."],
+[2,"Which contrast in risk is correct?",["Retailers put down large deposits; wholesalers only earn commission","Wholesalers put down large deposits and bear the risk of unsold blocks; retailers hold no stock and earn commission","Neither assumes any risk","Both bear equal risk"],1,"Wholesalers reserve block bookings; retailers receive commission (sometimes an override)."],
+[2,"A hotel gives a wholesaler a set number of rooms at a discount. This is called:",["Override","Rebate","FIT block","Room quota"],3,"Many hotels depend on wholesalers to sell a specific “room quota”."],
+[2,"Why is the wholesaler/retailer line sometimes blurred?",["Wholesalers may own retail agencies, and retailers may form cooperatives that act as wholesalers","Retailers hold large deposits with suppliers","Wholesalers deal only with airlines","Both are paid override by consumers"],0,"Ownership and cooperatives let one body play both roles."],
+[2,"How do corporate agencies obtain their price benefit?",["Commissions from suppliers","Overrides from wholesalers","Negotiated discounts and rebates rather than commissions","Fees from tourists"],2,"They serve only their own company and do not receive supplier commissions."],
+[2,"Why do agencies band into consortiums or chains?",["To avoid IATA standards","To become in-house departments","To stop selling packages","To pool information, buy in bulk, market together and afford sophisticated technology"],3,"Shared information, bulk purchasing, cooperative marketing and technology are the stated gains."],
+[2,"An Egypt-based firm supplies tours and services locally but does not actively market to overseas customers. It is a:",["Outbound operator","Ground operator","Wholesaler","Incentive agency"],1,"Ground operators provide services in their own country without marketing directly overseas."],
+[2,"Which product is least likely to attract long-haul customers?",["A unique, top-quality destination","A low-to-medium quality attraction","A destination with distinctive products and services","A luxury, one-of-a-kind experience"],1,"Only top destinations with unique products succeed in long-haul markets."],
+[2,"An Egyptian agency that sells tickets as agent for airlines and shipping companies is:",["Category C","Category A","Category B","Category D"],2,"Category A organises tours, B books and sells tickets as agent, C transports tourists."],
+[2,"Compared with scheduled flights, charters suit inclusive tours because:",["They follow a published timetable","The operator contracts the whole aircraft and benefits from bulk purchase","They carry the lowest fares by cutting meals","They are booked through GDSs only"],1,"Charter means hiring the whole aircraft by contract."],
+[2,"A client dislikes fixed groups, has researched specific interests and wants flexibility. Which traveller type?",["Group traveller","Independent traveller (FIT)","Package group member","Incentive traveller"],1,"FITs prefer flexibility unless the group is self-formed."],
+[2,"Retailers hold a stock of tours and bear the risk of unsold packages.",0,"Retailers do not stock tours; wholesalers carry that risk."],
+[2,"Low-cost carriers reduce fares by cutting services such as meals and baggage.",1,"Fewer amenities and lower fares define low-cost carriers."],
+[2,"Corporate travel agencies receive commissions from suppliers.",0,"They negotiate discounts and rebates instead."],
+[2,"Group travel has a set itinerary and an allocation of seats, and customers join the group.",1,"This is the lecture’s definition of group travel."],
+[2,"A travel agency is mainly a reseller, yet may employ its own guides and sell those services directly.",1,"Many companies act as both operator and reseller."],
+[2,"A traveller whose destination is within one day’s driving distance is considered long haul.",0,"Long haul means further than one day’s driving distance."],
+[1,"The lecture lists ‘advisors, consultants, brokers, counselors’ as other names for the travel agent. What core value do these names point to?",["Mainly printing tickets","Owning the tourism product","Carrying the risk of unsold seats","Expert counselling on destinations, routing, transport and accommodation that brings buyers and suppliers together"],3,"The agent brings suppliers and buyers together and offers sound travel counselling."],
+[1,"A manager claims agencies are a minor link because suppliers can simply sell directly. Which lecture point contradicts this most directly?",["Agencies set airline fares","Agencies own most hotels","The agency is the most important travel intermediary, giving suppliers a link to the public","Agencies are always wholesalers"],2,"Among all intermediaries in the distribution channel, the agency is the key link between supplier and customer."],
+[1,"Which activity is NOT among the ARC’s listed functions of a retail agency?",["Quoting fares, rates and schedules","Accepting payments for travel","Issuing tickets or other documents","Negotiating bulk room quotas with hotels"],3,"The ARC list covers quoting, reserving, taking payment, ticket delivery, assisting with arrangements and issuing documents; bulk contracting is a wholesaler/operator task."],
+[1,"Cook hired a train after walking 15 miles to a Leicester meeting in June 1841. What does the story show about how his business began?",["Planned market research","A practical transport problem became a bulk-transport opportunity","A government contract","Pressure from steamship firms"],1,"The idea of hiring a train for the members grew directly out of his own journey; the 570-passenger Loughborough trip followed."],
+[1,"Open-carriage trains with entertainment and refreshments show that Cook was already selling:",["A cheaper rail fare only","Hotel accommodation","An experience rather than just a seat","Foreign currency"],2,"He added entertainment and refreshments to the rail trip, moving from transport alone toward a complete experience."],
+[1,"Why is the Traveler’s Cheque (1890s) not proof that American Express was then a travel agency?",["It was issued by IATA","It was sold only by Cook","It was a hotel product","It is a payment service; Amex entered travel services (tickets, trips, tours) only in 1915"],3,"The lecture says it was not a travel agency in the 1890s; it entered the travel business in 1915."],
+[1,"Which statement about hostels is correct?",["They are a loosely defined, low-budget guesthouse form with usually no upper age limit","They are gender-segregated capsules","Their rooms open out to a parking lot","They are strictly for guests under 30"],0,"Hostels are often used by youth, but there is usually no upper age limit."],
+[1,"What distinguishes a B&B or guesthouse from a hotel?",["Rooms open out to a parking lot","Smaller residences where guests interact with hosts and other guests, often eating together and sharing spaces","Self-catering with maid service","Capsules with only a mattress, radio and TV"],1,"The hosted, shared-space atmosphere is the defining difference."],
+[1,"A budget traveller hopes to get a room, sometimes board, free or at a deep discount by connecting with local residents. Which option fits?",["Motel","Serviced apartment","Hospitality exchange (home stay network)","Capsule hotel"],2,"Success depends on connecting with the right people at the right time; networks range from a few thousand to about a hundred thousand members."],
+[1,"How does car camping differ from traditional camping?",["Equipment is carried in a motor vehicle driven to the site, allowing more gear","Rooms are rented in a house","It is used only off the beaten track","It always includes hotel services"],0,"Car camping allows much more equipment, with the focus on enjoying the site, cook-outs and day hikes."],
+[1,"Which pairing of unusual hotel and place is correct?",["Ice hotel – Maldives","Sandstone caves – Goreme (Turkey)","Underwater bedroom – Matala (Greece)","Tree houses – Santorini"],1,"Matala has rock caves; the underwater bedroom is Conrad Maldives Rangali Island; tree houses are in Sri Lanka and Çıralı (Turkey)."],
+[1,"What do unusual lodgings (caves, trees, ice, underwater) imply for package design?",["They are cheaper than hotels","They replace transport in the package","They appeal mainly to motorists","Accommodation itself can be the main attraction of a package"],3,"Like some transport, the lodging can be the experience that sells the package."],
+[1,"Burkart and Medlik describe the agent as acting on behalf of a principal, such as a hotel company, airline, tour operator or shipping company.",1,"The principal is the original provider of the tourist services."],
+[1,"All seven ARC functions would apply equally to an agency that sells no airline tickets.",0,"The definition is stated from the airlines’ point of view only, so it does not fit every agency."],
+[1,"Cook’s 5% arrangement with railway and steamship firms shows that he first acted as a supplier who owned the trains.",0,"He was paid commission for selling their tickets, which is the agent’s role."],
+[1,"Capsule hotels are priced roughly like a hostel dorm bed and offer a one-person capsule with a mattress, radio and TV.",1,"They are a cheap Japanese form of accommodation."],
+[1,"Ice hotels in the lecture are found only in Canada.",0,"They are also in Sweden (Jukkasjärvi), Norway, Finland and Romania."],
+[1,"Sveti Stefan, an island hotel, was originally a fishers’ village.",1,"The lecture gives it as an example of an unusual island hotel."],
+[2,"A firm designs packages, charters its own flights and sells only through approved retail agencies. How is it classified?",["Retailer","Wholesaler","Corporate agency","In-plant agency"],1,"Wholesalers assemble packages, may charter flights and sell through retailers rather than directly to consumers."],
+[2,"A retailer’s income comes mainly from:",["Mark-up on stocked tours","Government subsidy","Commission, and sometimes a volume-based override","Fees for unsold rooms"],2,"Retailers do not stock tours; wholesalers pay commission and sometimes an override based on volume."],
+[2,"A division inside a company, actually a branch of an independent retail agency serving that company’s employees, is a(n):",["In-plant (in-house) agency","Incentive agency","Corporate agency","Consortium"],0,"In-plant agencies are extensions of retail agencies or airline reservation centres placed in client companies."],
+[2,"A firm wants deluxe trips as rewards to raise employee productivity. Which agency type specialises in this?",["Ground operator","Wholesaler","Consortium","Incentive agency"],3,"Incentive agencies build programs that use deluxe travel as a productivity reward."],
+[2,"A Cairo firm markets Egyptian tours to customers in Europe, while another Cairo firm only supplies local services without marketing overseas. Which is correct?",["The first is inbound, the second a ground operator","The first is outbound, the second inbound","Both are ground operators","The first is ground, the second inbound"],0,"Inbound operators market to long-haul customers; ground operators supply services without marketing directly overseas."],
+[2,"Which statement about GDSs is correct?",["GDSs are airlines such as Fly Dubai","GDSs handle only hotel quotas","Air transportation is booked through GDSs such as Amadeus, Sabre, Galileo and Worldspan","GDSs are Egyptian Category C agencies"],2,"These four are the global distribution systems named in the lecture."],
+[2,"A client wants the cheapest excursion fare but may change dates. What should the agent warn about?",["Excursion tickets are always fully refundable","Charter tickets cannot be priced","Low-cost carriers always include baggage","Some excursion tickets are non-refundable and non-changeable, unlike yearly tickets"],3,"Cancellation policy differs by ticket type."],
+[2,"A destination’s brand is derived from:",["Only its logo","Who it is, who it wants to be and who people perceive it to be","Only its price","Its airline partners"],1,"Brand is the promise that differentiates the offering, built from identity, aspiration and perception."],
+[2,"Consortiums and chains can consist of either retail or wholesale agents.",1,"They are networks sharing information, bulk purchasing and cooperative marketing."],
+[2,"Retailers must design every tour in advance and stock it, since they never create tours for individual clients.",0,"Retailers may design inclusive tours for individual clients after discussing their wishes; they do not stock tours."],
+[2,"Cruises and luxury train trips such as the Orient Express are examples where the transport itself is part of the experience.",1,"Boating holidays, coach tours, safaris and cycling tours are others."],
+[2,"Travel resellers and portals sell only one supplier’s products, so consumers cannot compare options.",0,"They let consumers review and compare many options in one catalogue or site."],
+[1,"McIntosh & Goldner call the agency a ‘middleman’. Which description matches their definition?",["A producer that owns every component sold","A government regulator of suppliers","A business or person selling the industry’s individual parts, or combinations of parts, to the consumer","A supplier selling only to other agencies"],2,"Their definition stresses reselling individual parts or combinations of parts of the travel industry to consumers."],
+[1,"According to Medlik (1993), how is the tour operator’s package sold?",["Only through IATA-appointed agents","Directly to the public or through intermediaries, at a mark-up","Only to corporations","Only to airlines"],1,"The operator buys services, combines them into a package and sells it with a mark-up, directly or via intermediaries."],
+[1,"Coltman and Burkart & Medlik define the agency differently. Which statement captures the difference?",["Coltman stresses the agency as the final contact between sellers and buyers of tourism; Burkart & Medlik stress acting on behalf of a principal","Coltman says it owns the product; Burkart & Medlik call it a regulator","Both call it a wholesaler","Coltman defines tour operators only"],0,"One definition focuses on the agency’s position in the channel, the other on its relationship with the supplier."],
+[1,"Cook offered deluxe guided tours to wealthy travellers and day trips to the working classes. What does this show?",["He abandoned rail travel","He worked only for the wealthy","His tours lost money","He served different market segments with different products"],3,"Different products for different segments is early market segmentation."],
+[1,"By the 1920s, American Express advertised and sold:",["Freight services only","Around-the-world tours and cruises","Charter flights","Hotel coupons"],1,"After entering travel in 1915, it expanded from tickets and trips to tours and cruises."],
+[1,"A client is greeted on arrival at the airport and helped through formalities. Which package component is this?",["Guidance","Sights/Visits","Meet & Assist","HOTAC"],2,"Receiving and assisting arriving clients is Meet & Assist; Guidance refers to guiding during the tour."],
+[1,"How does the lecture describe hotels?",["Shared dorms only","Rooms opening out to parking lots","Self-catering units only","Private serviced rooms ranging from very basic budget to extremely luxurious"],3,"Hotels cover the whole range from budget-style to luxury."],
+[1,"How can a vacation rental come about, according to the lecture?",["Residents of popular destinations lease homes that were bought for the purpose or are vacated for part of the year","Only hotel chains convert rooms","Governments assign them","Campsites build them"],0,"Homes may be bought specifically for letting, or normal occupants leave during part of the year."],
+[1,"Tolls and similar extras fall under which tour-cost component?",["Meals","Local guides/escort","Miscellaneous","Cruises"],2,"The tour-cost slide shows tolls under Miscellaneous."],
+[1,"In the all-suite hotel plan, what distinguishes the layout from a standard room?",["A one-person capsule","A separate living/dining area, bathroom and bedroom","Rooms opening to a parking lot","A dormitory with bunk beds"],1,"A suite separates living and sleeping areas rather than combining them in one room."],
+[1,"Which topics does the course outline place under regulation and relations?",["IATA, licensing, and relations with agencies, suppliers and the NTO","Hotel menu design","Aircraft maintenance","Ship engineering"],0,"The regulatory framework covers IATA and licensing, plus the operator’s relations with agencies, suppliers and the national tourism office."],
+[1,"Pacific Resort Aitutaki in the Cook Islands is shown as an example of:",["A capsule hotel","A hostel","A motel","A 5-star island resort"],3,"It is shown as a five-star hotel in a remote island destination."],
+[1,"McIntosh & Goldner’s definition says the agency sells only combinations of parts, never individual parts.",0,"It covers the industry’s individual parts or combinations of parts."],
+[1,"Cook organised deluxe guided tours for wealthy travellers and day trips for the working classes.",1,"Both are stated in the lecture."],
+[1,"By the 1920s American Express was selling around-the-world tours and cruises.",1,"It had entered the travel business in 1915."],
+[1,"Vacation rentals are always properties bought specifically for letting.",0,"They may also be ordinary homes vacated for part of the year."],
+[1,"Hotels in the lecture range only from budget to mid-range accommodation.",0,"They range from very basic budget-style to extremely luxurious."],
+[1,"Camping is often the only accommodation choice when travelling off the beaten track.",1,"It is do-it-yourself accommodation, though some sites are also very popular for camping holidays."],
+[2,"Why does a wholesaler not deal directly with consumers unless it also operates at retail level?",["IATA forbids it","It has no packages to sell","Its packages are marketed through a network of retail agents or airlines","It serves only corporations"],2,"Wholesalers sell to be resold, through retail agents or their own retail outlets."],
+[2,"A retail agency acts as agent for all of these EXCEPT:",["Cruise lines","Car rental firms","Wholesale travel agencies","Airport construction contractors"],3,"Retailers act for airlines, cruise lines, coach companies, railroads, hotels, car rental firms and sometimes wholesalers."],
+[2,"Why might a company run its own corporate (commercial) agency instead of using an outside one?",["To earn supplier commissions on every ticket","To manage its own business travel and negotiate discounts and rebates directly with suppliers","To resell tours to the public","To avoid buying tickets"],1,"Corporate agencies serve only their own company and receive no commissions, but negotiate discounts and rebates."],
+[2,"Which statement about short-haul and long-haul markets is correct?",["Companies typically serve both, and the quality of the experience decides whether a product can sell long haul","Long haul means within one day’s drive","Short-haul sales need unique top destinations","Companies serve only one market"],0,"Long haul is beyond one day’s driving; only unique, high-quality products succeed there."],
+[2,"A tour operator packaging another supplier’s hotel, and an agency employing its own translators, illustrate that:",["Agencies cannot sell services","Operators never resell","Roles overlap: many travel companies act as both operators and resellers","Both are wholesalers"],2,"The operator/reseller line is blurred in practice."],
+[2,"Package travel mainly suits travellers who:",["Prefer to drive themselves","Don’t wish to spend time making their own arrangements, so services are bundled for convenience","Want to buy each service separately","Are corporations only"],1,"Bundling serves those who don’t want to make their own arrangements."],
+[2,"Which comparison is correct?",["Charter follows a published timetable; scheduled hires the whole aircraft","Both hire the whole aircraft","Scheduled flights are only low-cost","Scheduled: regular service on a published timetable; charter: whole aircraft hired by contract"],3,"A scheduled airline operates regular timetabled flights; a charter is a hire of the whole aircraft."],
+[2,"Egyptian Category C agencies transport tourists by air, sea or land facilities.",1,"Category A organises tours, B sells tickets as agent, C transports tourists."],
+[2,"Low-cost carriers offer higher fares and more amenities than full-service airlines.",0,"They offer lower fares and fewer amenities."],
+[2,"A brand differentiates a product, service or destination and is a promise of what customers can expect.",1,"This is the lecture’s definition and promise idea."],
+[2,"A wholesaler puts down deposits with suppliers but carries no risk if block bookings go unsold.",0,"Wholesalers assume that risk; retailers do not."],
+[2,"Land transportation includes rail, coach and car, while sea transportation includes ships, ferries, cruises and yachts.",1,"Both lists appear in the lecture."],
+];
+// normalise to [lecture(0/1), type(m/t), text, options|null, answerIndex, explanation]
+const Q=R.map(x=>Array.isArray(x[2])?[x[0]-1,"m",x[1],x[2],x[3],x[4]]:[x[0]-1,"t",x[1],null,x[2]?0:1,x[3]]);
+Q.sort((a,b)=>a[0]-b[0]||(a[1]==="m"?0:1)-(b[1]==="m"?0:1));
+const N=Q.length,A=Array(N).fill(null),$=s=>document.querySelector(s),LT="ABCD",C=2*Math.PI*26;
+$("#fg").setAttribute("stroke-dasharray",C);
+let h="";
+Q.forEach((q,i)=>{
+ if(!i)h+=`<h2>${L[q[0]]}</h2>`;else if(Q[i-1][0]!==q[0])h+=`<div class="sep"><span>The following questions are from ${L[q[0]]}</span></div>`;
+ const o=q[3]||["True","False"];
+ h+=`<div class="q" id="q${i}"><div class="meta">Question ${i+1} of ${N} · ${q[1]==="m"?"Multiple choice":"True or false"}</div><div class="qt">${q[2]}</div>`+
+ o.map((t,j)=>`<button class="op" type="button" data-i="${i}" data-j="${j}">${q[3]?`<b>${LT[j]}.</b>`:""}<span>${t}</span></button>`).join("")+`<div class="fb"></div></div>`;
+});
+$("#qs").innerHTML=h;
+$("#qs").addEventListener("click",e=>{const b=e.target.closest(".op");if(b)pick(+b.dataset.i,+b.dataset.j)});
+function pick(i,j){
+ if(A[i]!==null)return;A[i]=j;
+ const q=Q[i],c=$("#q"+i),o=q[3]||["True","False"],f=c.querySelector(".fb");
+ c.querySelectorAll(".op").forEach((b,k)=>{b.disabled=true;if(k===q[4])b.classList.add("ok");else if(k===j)b.classList.add("no")});
+ if(j===q[4]){f.className="fb ok";f.textContent="✓ Correct answer"}
+ else{f.className="fb no";f.innerHTML=`<strong>✗ Wrong answer.</strong> The correct answer: <strong>${o[q[4]]}</strong><br>${q[5]}`}
+ upd();
+}
+function upd(){
+ const ok=A.filter((a,i)=>a===Q[i][4]).length,done=A.filter(a=>a!==null).length;
+ $("#sc").textContent=ok+" / "+N;$("#rt").textContent=Math.round(ok/N*100)+"%";
+ $("#fg").style.strokeDashoffset=C*(1-ok/N);$("#wn").textContent=N-ok;
+ $("#st").textContent=done===N?`Test finished: your score is ${ok} out of ${N}`:`You answered ${done} of ${N}`;
+}
+$("#wbox").onclick=()=>{
+ const l=Q.map((q,i)=>i).filter(i=>A[i]!==Q[i][4]);
+ $("#wl").innerHTML=l.length?l.map(i=>`<button class="it" type="button" data-go="${i}"><span class="tag ${A[i]===null?"m":""}">${A[i]===null?"Missed":"Wrong"}</span>Q${i+1}: ${Q[i][2].slice(0,70)}${Q[i][2].length>70?"…":""}</button>`).join(""):"No wrong or missed questions 🎉";
+ $("#ov").classList.add("on");
+};
+const close=()=>$("#ov").classList.remove("on");
+$("#cl").onclick=close;$("#ov").onclick=e=>{if(e.target.id==="ov")close()};
+document.addEventListener("keydown",e=>{if(e.key==="Escape")close()});
+$("#wl").addEventListener("click",e=>{
+ const b=e.target.closest("[data-go]");if(!b)return;close();
+ const c=$("#q"+b.dataset.go);c.scrollIntoView({behavior:"smooth",block:"start"});
+ c.classList.remove("flash");void c.offsetWidth;c.classList.add("flash");
+});
+upd();
+</script>
+</body>
+</html>
